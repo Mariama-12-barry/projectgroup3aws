@@ -6,11 +6,7 @@ pipeline {
         echo 'docker ps -a'
       }
     }
-    stage ('Run Docker Compose') {
-      steps{
-        bat 'docker-compose up  -d'
-      }
-    }
+    
   }
   
 }
