@@ -5,8 +5,6 @@ pipeline {
       steps{
         echo 'docker ps -a'
       }
-    }
-    
-  }
-  
+    }    
+  } 
 }
